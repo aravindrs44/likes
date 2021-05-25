@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="topBar">Lair</h1>
+        <h1 class="yourFeedBar">Your Feed</h1>
+        <div class="content">
+            <div class="leftCol">
+                <img src="assets\user-circle.png" alt="Profile Picture">
+                <a href="">Add an Avatar</a>
+                <h2>Aravind Sripada</h2>
+            </div>
+            <div class="rightCol">
+                <div class="post">
+                    <div class="topPortion">
+                        <h2 class="user">Neil M</h2>
+                        <h3 class="likeCounter" id="post1Counter">0 Like(s)</h3>
+                        <button class="counter" id="button1" onclick = "addLikes(this)">Like</button>
+                    </div>
+                    <h4>I just set up this new discord bot, let me know what you all think. <a href = " ">link</a></h4>
+                </div>
+                <div class="post">
+                    <div class="topPortion">
+                        <h2 class="user">Nichole K</h2>
+                        <h3 class="likeCounter" id="post2Counter">0 Like(s)</h3>
+                        <button class="counter" id="button2" onclick = "addLikes(this)">Like</button>
+                    </div>
+                    <h4>Just finish my <a href = " ">next comic</a>, check it out.</h4>
+                </div>
+                <div class="post">
+                    <div class="topPortion">
+                        <h2 class="user" onclick="alert('Coding Dojo\'s very own Thanos')">Jim R</h2>
+                        <h3 class="likeCounter" id="post3Counter">0 Like(s)</h3>
+                        <button class="counter" id="button3" onclick = "addLikes(this)">Like</button>
+                    </div>
+                    <h4>I can't stop listening to the <a onmouseover="alert('Music Aravind was listening to while doing this assignment')" href = "https://www.youtube.com/watch?v=Yv9tBhcQ8sM" >new album</a>. Who else is liking it?</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
